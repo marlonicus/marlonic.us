@@ -3,78 +3,107 @@
   <head>
     <meta charset="utf-8">
     <title>Marlon Huber-Smith - Web Developer</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mblode/marx/master/css/marx.min.css">
+    <style type="text/css">
+      .main {
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .experience-list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .experience-list dt {
+        flex-basis: 40%;
+        margin: 0;
+      }
+
+      .experience-list dd {
+        flex-basis: 60%;
+        margin: 0;
+      }
+
+      .job-title {
+        font-weight: bold;
+      }
+
+    </style>
   </head>
   <body>
-    <header>
+    <main class="main">
+      <header>
 
-      <h1>Marlon Huber-Smith</h1>
-      <h2>Web Developer</h2>
+        <h1>Marlon Huber-Smith</h1>
+        <h2>Web Developer</h2>
 
-      <address>
-        <ul>
-          <li><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x6D;&#x61;&#x72;&#x6C;&#x6F;&#x6E;&#x68;&#x75;&#x62;&#x65;&#x72;&#x73;&#x6D;&#x69;&#x74;&#x68;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;">Email</a></li>
-          <li><a href="https://www.linkedin.com/in/marlon-huber-smith-1183a919/">LinkedIn</a></li>
-          <p>+46 70 289 8020</p>
-      </address>
-    </header>
+        <address>
+          <ul>
+            <li><a href="&#x6D;&#x61;&#x69;&#x6C;&#x74;&#x6F;&#x3A;&#x6D;&#x61;&#x72;&#x6C;&#x6F;&#x6E;&#x68;&#x75;&#x62;&#x65;&#x72;&#x73;&#x6D;&#x69;&#x74;&#x68;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/marlon-huber-smith-1183a919/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/marlonicus/" target="_blank">GitHub</a></li>
+            <p>+46 70 289 8020</p>
+        </address>
+      </header>
 
-    <h3>Tools and Skills</h3>
+      <h3>Tools and Skills</h3>
 
-    <h4>Front-end</h4>
-    <ul>
-      <li>React, Redux, Jest</li>
-      <li>CSS Modules, Styled JSX, BEM</li>
-      <li>Next.js, Gatsby, React Static</li>
-      <li>Webpack, Babel, PostCSS, Parcel, Gulp, Grunt</li>
-      <li>SASS / LESS</li>
-      <li>NPM, Yarn</li>
-      <li>ES6/ES201x</li>
-      <li>Web components</li>
-    </ul>
+      <h4>Front-end</h4>
+      <ul>
+        <li>React, Redux, Jest</li>
+        <li>CSS Modules, Styled JSX, BEM</li>
+        <li>Next.js, Gatsby, React Static</li>
+        <li>Webpack, Babel, PostCSS, Parcel, Gulp, Grunt</li>
+        <li>SASS, LESS</li>
+        <li>NPM, Yarn</li>
+        <li>ES6, ES201x</li>
+        <li>Web components</li>
+      </ul>
 
-    <h4>Back-end</h4>
-    <ul>
-      <li>Node.js, Express, Koa, MongoDB</li>
-      <li>AWS Lambda, EC2, CodePipeline, CodeBuild, S3, Cloudfront</li>
-      <li>Serverless framework</li>
-      <li>Netlify, Contentful</li>
-    </ul>
+      <h4>Back-end</h4>
+      <ul>
+        <li>Node.js, Express, Koa, MongoDB</li>
+        <li>AWS Lambda, EC2, CodePipeline, CodeBuild, S3, Cloudfront</li>
+        <li>Serverless framework</li>
+        <li>Netlify, Contentful</li>
+      </ul>
 
-    <h4>Misc.</h4>
-    <ul>
-      <li>Git, bash, tmux, fish</li>
-      <li>Kanban, Scrum</lu>
-    </ul>
+      <h4>Misc.</h4>
+      <ul>
+        <li>Git, bash, tmux, fish</li>
+        <li>Kanban, Scrum</lu>
+      </ul>
 
-    <hr />
+      <hr />
 
-    <h3>Experience</h3>
-    <dl>
-      <dt>Principal Web Developer</dt>
-      <dd>4 years,	AKQA</dd>
+      <h3>Experience</h3>
+      <dl class="experience-list">
+        <dt><span class="job-title">Principal Web Developer</span>, 4 years</dt>
+        <dd>AKQA</dd>
 
-      <dt>Software Engineer</dt>
-      <dd>1 year	The Interest Network</dd>
+        <dt><span class="job-title">Software Engineer</span>, 1 year</dt>
+        <dd>The Interest Network</dd>
 
-      <dt>Interactive Developer</dt>
-      <dd>2 years	Specialmoves</dd>
+        <dt><span class="job-title">Interactive Developer</span>, 2 years</dt>
+        <dd>Specialmoves</dd>
 
-      <dt>Flash Developer</dt>
-      <dd>1 year,	Albion London</dd>
+        <dt><span class="job-title">Flash Developer</span>, 1 year</dt>
+        <dd>Albion London</dd>
 
-      <dt>Support Technologist</dt>
-      <dd>3 years,	Agency Republic</dd>
-    </dl>
+        <dt><span class="job-title">Support Technologist</span>, 3 years</dt>
+        <dd>Agency Republic</dd>
+      </dl>
 
-    <hr />
+      <hr />
 
-    <h3>About Me</h3>
+      <h3>About Me</h3>
 
-    <p>For over 10 years I’ve had the pleasure of developing a variety of products, ranging from websites, mobile web-applications, to digital installations and mini-games, for an eclectic mix of clients, including: Volvo, Formula 1, H+M, Rolex, Diageo and more.</p>
-    <p>I am at my strongest when working with JavaScript, especially when coupled with React, and have years of experience working on large scale JavaScript applications. For server-side functionality I will often reach for Node.js, and I take an interest in architecting and constructing CI/CD pipelines to help ship products.</p>
-    <p>I am a keen advocate of continuous integration/delivery/deployment and the practices that come with it (early releases, automated testing, monitoring/metrics, feature toggles, etc..). I believe these are critical for any products ability to evolve quickly in a fast moving digital world.</p>
-    <p>I enjoy working within agile autonomous teams and have recently been involved in a broad scale agile-transformation within a large organization. I was the tech lead in what would become an exemplar agile product team. By combining both agile and lean principles across every aspect of our work, with regular retrospectives and continuous improvement, we were able to build a team with an unparalleled cycle time; rapidly delivering business value through customer data driven user stories.</p>
+      <p>For over 10 years I’ve had the pleasure of developing a variety of products, ranging from <b>websites</b>, <b>mobile web-applications</b>, to <b>digital installations</b> and <b>mini-games</b>, for an eclectic mix of clients, including: Volvo, Formula 1, H+M, Rolex, Diageo and more.</p>
+      <p>I am at my strongest when working with <b>JavaScript</b>, especially when coupled with <b>React</b>, and have years of experience working on large scale JavaScript applications. For server-side functionality I will often reach for <b>Node.js</b>, and I take an interest in architecting and constructing <b>CI/CD</b> pipelines to help ship products.</p>
+      <p>I am a keen advocate of continuous integration/delivery/deployment and the practices that come with it (<b>early releases</b>, <b>automated testing</b>, <b>monitoring/metrics</b>, <b>feature toggles</b>, etc.). I believe these are critical for any product's ability to evolve quickly in a fast moving digital world.</p>
+      <p>I enjoy working within <b>agile</b> autonomous teams and have recently been involved in a large scale agile-transformation within a big organization. As the tech lead in what would become an exemplar agile product team, I would work closely with the product owner and delivery lead to help figure out exactly what it is we need to build, and how best to build it. By combining both agile and <b>lean</b> principles across every aspect of our work, with regular <b>retrospectives</b> and continuous improvement, we were able to build a team with an unparalleled cycle time, rapidly delivering business value through customer data driven user stories.</p>
 
-
+    </main>
   </body>
 </html>
